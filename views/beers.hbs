@@ -1,0 +1,15 @@
+<h1>Beers</h1>
+
+<div class="beer-content-container">
+	{{#each content}}
+        <div class="imgContainer">
+            <img src="{{this.image_url}}" alt="Imperial Black Belgian Ale">
+        </div>
+
+        <div class="beerTextContainer">
+            <h3>{{this.name}}</h3>
+            <h4>{{this.tagline}}</h4>
+            <p>{{this.description}}</p>
+        </div>
+	{{/each}}
+</div>
